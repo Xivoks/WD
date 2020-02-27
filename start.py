@@ -56,7 +56,6 @@ def pow():
 from math import * 
 import math as m 
 from math import pow 
-m.pow()
 m.pi
 
 
@@ -69,4 +68,18 @@ piata_zmienna=True
 szosta_zmienna=False
 siodma_zmienna=4.5
 osma_zmienna=2.8
-print(pierwsza_zmienna)
+print(pierwsza_zmienna+druga_zmienna)
+
+z=3
+z+=1
+print(z)
+z-=1
+print(z)
+z*=2
+print(z)
+z/=2
+print(z)
+z**=2
+print(z)
+z%=2
+print(z)
